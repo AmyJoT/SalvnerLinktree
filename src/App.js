@@ -17,11 +17,11 @@ function App() {
           <i class="fab fa-twitch"></i>
           <h2>Twitch</h2>
         </a>
-        <a href="javascript://" class='box blurple'>
+        <a href="https://discord.gg/XYQ24xF" class='box blurple'>
           <i class="fab fa-discord"></i>
           <h2>Discord</h2>
         </a>
-        <a href="javascript://" class='box bluefish'>
+        <a href="https://twitter.com/SalvnerS" class='box bluefish'>
           <i class="fab fa-twitter"></i>
           <h2>Twitter</h2>
         </a>
@@ -46,30 +46,6 @@ function App() {
       </div>
 
     </div>
-
-
-
-
-    // <div className="app">
-    //     {/* <img src={logo} className="App-logo" alt="logo" /> */}
-    //     <img className="image" src={logo}  alt="logo" />
-    //     {/* <html>
-    //       <iframe title="hello" src="https://www.twitch.tv/popout/salvner/extensions/7hoqd16sufw9f9h3swlkdt6lqdn3ud/panel"></iframe>
-    //     </html> */}
-    //     <div className="thing">
-    //     <a href="https://www.twitch.tv/popout/salvner/extensions/7hoqd16sufw9f9h3swlkdt6lqdn3ud/panel" class="button">
-    //       Salv Setup
-    //     </a>
-    //     <a href="https://discord.gg/XYQ24xF" class="button">
-    //       <i class="fab fa-discord" /> Discord 
-    //       {/* not working */}
-    //     </a>
-    //     <a href="https://www.youtube.com/c/Salvner/" class="button">Youtube</a>
-    //     <a href="https://twitter.com/SalvnerS" class="button">Twitter</a>
-    //     <a href="https://www.twitch.tv/salvner" class="button">Twitch</a>
-    //     </div>
-    //     <p> Made by an amazingly shit dev</p>
-    // </div>
   );
 }
 
