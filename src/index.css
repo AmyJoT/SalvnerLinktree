@@ -1,13 +1,115 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(https://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+* { -webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -ms-font-smoothing:antialiased; -o-font-smoothing:antialiased; font-smoothing:antialiased; }
+
+.image {
+  max-height: 145px;
+  margin-left: 12px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin:0px;
+  padding:0px;
+	font-family: "Open Sans", arial;
+  background-image: url("background.png");
+	/* background:#0f6d39; */
+	color:#fff;
+	font-weight:300;
 }
+
+h1{
+	font-family: "Open Sans", arial;
+	font-weight:300;
+	float: left;
+	width: 55%;
+	margin-left: 5px;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+h2{
+	margin:0px;
+	font-family: "Open Sans", arial;
+	font-weight:300;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	margin:50px;
+	width: 100%;
+	/* margin-top: 0px; */
+  margin-left:10px;
+	-webkit-transform:scale(0.9);
+}
+a.wide, a.box{
+	text-decoration:none;
+	color:#fff;
+	-webkit-transition: -webkit-transform 0.1s;
+	position:relative;
+	overflow:hidden;
+}
+
+a.wide h2, a.box h2{
+	position:absolute;
+	bottom:5px;
+	font-size:14px;
+}
+
+a.wide h2.top, a.box h2.top{
+	position:static;
+
+	font-size:14px;
+}
+a.wide i, a.box i{
+font-size: 60px;
+text-align: center;
+display: block;
+margin-top: 25px;
+}
+a.wide:hover, a.box:hover{
+	-webkit-transform: scale(1.05);
+}
+
+a.wide:active, a.box:active{
+	-webkit-transform: scale(1);
+}
+.wide{
+	width:270px;
+	height:120px;
+	overflow:hidden;
+	font-size:13px;
+	padding:10px;
+	display:block;
+	float:left;
+	margin:5px;
+}
+
+.box{
+	width:120px;
+	height:120px;
+	overflow:hidden;
+	font-size:13px;
+	padding:10px;
+	display:block;
+	float:left;
+	margin:5px;
+}
+.lime{background:#61b812;}
+.orange{background:#e76022;}
+.blue{background:#1E90FF;}
+.redgay{background:#DA312E;}
+.yellow{background:#dbb701;}
+.bluefish{background:#02b9e3;}
+.magenta{background:#d22a4e;}
+.blurple{background:#7289DA;}
+.purple{background:#6441a5;}
+.spacer{
+	width:770px;
+	margin-right: 50px;
+	float:left;
+}
+.spacer3x{
+	width:300px;
+}
+
